@@ -16,7 +16,7 @@ const uri = process.env.MONGODB_URI;
 
 // DB connection
 mongoose
-  .connect(localURI, {
+  .connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
